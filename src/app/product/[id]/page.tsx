@@ -48,6 +48,48 @@ const products = [
     image: "/images/Library-Stool-Chair 6.png",  
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
   },
+  {
+    id: "7",
+    name: "Library Stool Chair",
+    price: 99,
+    image: "/images/Library-Stool-Chair 7.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
+  {
+    id: "8",
+    name: "Luxury Rest Chair",
+    price: 129,
+    image: "/images/card.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
+  {
+    id: "9",
+    name: "Modern Office Chair",
+    price: 149,
+    image: "/images/Library-Stool-Chair 5.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
+  {
+    id: "10",
+    name: "Library Stool Chair",
+    price: 99,
+    image: "/images/Library-Stool-Chair 1.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
+  {
+  id: "11",
+  name: "Luxury Rest Chair",
+  price: 129,
+  image: "/images/Library-Stool-Chair 3.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
+  {
+  id: "12",
+  name: "Modern Office Chair",
+  price: 149,
+  image: "/images/Desk Chair.png",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipisicing"
+  },
 ]
 
 type PageProps = {

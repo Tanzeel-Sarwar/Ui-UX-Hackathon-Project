@@ -40,7 +40,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Header */}
       <header className="bg-white sticky top-0 z-40 border-b">
         <div className="container mx-auto px-6 lg:px-16">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between py-4">
+          <div className="flex md:flex-row items-start md:items-center justify-between py-4">
             <div className="flex flex-col items-start">
               <Link href="/" className="flex items-center">
                 <div>
@@ -50,8 +50,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             </div>
 
-            <div className="flex items-center mt-4 md:mt-0">
-              <Link href="/cart" className="flex items-center bg-[#007580] text-white px-4 py-2 rounded-md hover:bg-[#1d5e64] transition-colors">
+            <div className=" flex items-center md:mt-0">
+              <Link href="/cart" className="flex items-center bg-[#007580] text-white md:px-4 px-1.5 py-2 rounded-md hover:bg-[#1d5e64] transition-colors">
                 <ShoppingCart className="w-5 h-5 mr-2" />
                 <span className="mr-2">Cart</span>
                 {cartItemsCount > 0 && (
@@ -76,10 +76,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/products" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">Product</Link>
             <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">Pages</Link>
             <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">About</Link>
+            <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">Contact</Link>
 
-            <div className=" text-sm ">
-              <Link href="/contact" className='ml-[35rem] hover:text-teal-700'>
-                Contact: <span className="text-right font-medium ">(+92) 123-456-789</span>
+            <div className="text-sm">
+              <Link href="/contact" className=' hover:text-teal-700'>
+                Contact: <span className=" text-right font-medium ">(+92) 123-456-789</span>
               </Link>
             </div>
           </nav>
@@ -114,6 +115,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/products" className="text-xl text-gray-600 hover:text-gray-900">Product</Link>
               <Link href="/" className="text-xl text-gray-600 hover:text-gray-900">Pages</Link>
               <Link href="/about" className="text-xl text-gray-600 hover:text-gray-900">About</Link>
+              <Link href="/contact" className="text-xl text-gray-600 hover:text-gray-900">Contact</Link>
             </nav>
             <div className="mt-8">
               <Link href="/cart" className="flex items-center justify-center bg-[#007580] text-white px-4 py-2 rounded-md hover:bg-teal-600 transition-colors">
@@ -127,7 +129,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             </div>
             <div className="mt-4 text-center text-sm">
+            <Link href="/contact" className='lg:ml-[35rem] hover:text-teal-700'>
               Contact: <span className="font-medium">(808) 555-0111</span>
+              </Link>
             </div>
           </div>
         </div>

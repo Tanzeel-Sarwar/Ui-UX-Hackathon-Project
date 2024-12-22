@@ -194,7 +194,7 @@ export default function Home() {
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
                   />
-                  <div className="mt-[16em] h-28 absolute inset-0 bg-black/40 transition-opacity group-hover:bg-black/50" />
+                  <div className="mt-[12em] md:mt-[7em] lg:mt-[16em] h-28 absolute inset-0 bg-black/40 transition-opacity group-hover:bg-black/50" />
                   <div className="absolute bottom-6 left-6 ">
                     <h3 className="text-white text-xl font-semibold mb-1">{category.title}</h3>
                     <p className="text-white/80 text-sm">{category.productCount}</p>

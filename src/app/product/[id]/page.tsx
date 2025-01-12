@@ -109,7 +109,7 @@ async function getFeaturedProducts(id: string) {
   return products.filter(p => p.id !== id)
 }
 
-export default async function ProductPage({ params, searchParams }: PageProps) {
+export default async function ProductPage({ params }: PageProps) {
   const { id } = await params
 
   const [product, featuredProducts] = await Promise.all([
